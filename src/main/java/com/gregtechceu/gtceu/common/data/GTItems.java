@@ -2318,7 +2318,11 @@ public class GTItems {
             .properties(p -> p.stacksTo(1))
             .onRegister(compassNode(GTCompassSections.ITEMS))
             .onRegister(attach(new TerminalBehavior())).register();
-
+    public static ItemEntry<ComponentItem> PORTABLE_3D_PRINTER = REGISTRATE.item("portable_3d_printer", ComponentItem::create)
+            .lang("Portable 3D Printer")
+            .properties(p -> p.stacksTo(1))
+            .onRegister(compassNode(GTCompassSections.ITEMS))
+            .onRegister(attach(new PrinterBehavior())).register();
     public static final ItemEntry<Item>[] DYE_ONLY_ITEMS = new ItemEntry[DyeColor.values().length];
     static {
         DyeColor[] colors = DyeColor.values();

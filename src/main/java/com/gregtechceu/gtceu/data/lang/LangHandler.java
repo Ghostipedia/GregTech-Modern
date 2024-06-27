@@ -118,6 +118,13 @@ public class LangHandler {
         provider.add("gtceu.tool.class.plunger", "Plunger");
         provider.add("gtceu.tool.class.shears", "Shears");
         provider.add("gtceu.tool.class.drill", "Drill");
+        provider.add("gtceu.tools.printer.no_blocks_placed", "No New Blocks Placed");
+        provider.add("gtceu.tools.printer.blocks_placed", "Blocks Placed:");
+        provider.add("gtceu.tools.printer.building_structure", "Building Structure");
+
+        replace(provider, "gtceu.tools.printer.no_blocks_placed", "No New Blocks Placed");
+        replace(provider, "gtceu.tools.printer.blocks_placed", "Blocks Placed:");
+
 
         provider.add("command.gtceu.medical_condition.get", "Player %s has these medical conditions:");
         provider.add("command.gtceu.medical_condition.get.empty", "Player %s has no medical conditions.");

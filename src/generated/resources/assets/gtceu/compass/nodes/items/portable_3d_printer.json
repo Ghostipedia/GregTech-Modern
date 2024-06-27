@@ -1,0 +1,15 @@
+{
+  "button_texture": {
+    "type": "item",
+    "res": "gtceu:portable_3d_printer"
+  },
+  "items": [
+    "gtceu:portable_3d_printer"
+  ],
+  "page": "gtceu:items/portable_3d_printer",
+  "position": [
+    -50,
+    100
+  ],
+  "section": "gtceu:items"
+}
